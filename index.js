@@ -52,10 +52,11 @@ io.on("connection", (socket) => {
     .then((data) => socket.emit("messages_list", data))
     .catch((err) => console.log(err));
   socket.on("post_message", (data) => {
-    db_messages.save(data).catch((err) => console.log(err));
-    db_messages
+    db_messages.save(data).then(
+      db_messages
       .getAll()
       .then((data) => io.sockets.emit("messages_list", data))
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err))
+    ).catch((err) => console.log(err));
   });
 });
