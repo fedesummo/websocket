@@ -1,0 +1,20 @@
+[
+   {
+      "id": 1,
+      "title": "Samsung Galaxy Z Fold3",
+      "thumbnail": "https://tiaecuador.vteximg.com.br/arquivos/ids/185006-1000-1000/imagen_2021-10-16_025354.png?v=637699676378700000",
+      "price": 1200
+   },
+   {
+      "id": 2,
+      "title": "Samsung Galaxy Watch4",
+      "thumbnail": "https://images.fravega.com/f300/8235c1991867e2087cc1d666dbe1c1bc.jpg.webp",
+      "price": 295
+   },
+   {
+      "id": 3,
+      "title": "Samsung Galaxy A53",
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/2202/gallery/ar-galaxy-a53-5g-a536-sm-a536ezkaaro-531544682?$720_576_PNG$",
+      "price": 329
+   }
+]
